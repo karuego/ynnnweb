@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="/fileshare/stylefile.css"emember rel="stylesheet">
+    <title>Home</title>
+</head>
+<body style="background-color: var(--primary-color)" class=" text-light">
+  <dev id="loadinganim"></dev>
+  <dev>
+    <section>
+      <nav style="background-color: var(--primary-color)" class="navbar navbar-dark fixed-top">
+        <div class="container-fluid ">
+          <a class="navbar-brand" href="/"><span style="color: var(--secondary-color); font-family: 'Bungee', cursive;">Informatika</span> </span><b class="everyonestyle animasiwarnatitle">021</b></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon "></span>
+          </button>
+            <div class="collapse navbar-collapse   mt-2 text-center " id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a style="color: var(--secondary-color);" class="nav-link" aria-current="page" href="/">Home</a>
+                <a style="color: var(--secondary-color);" class="nav-link active" href="/galeri">member</a>
+                <a style="color: var(--secondary-color);" class="nav-link" href="/fileshare/">Files</a>
+                <a style="color: var(--secondary-color);" class="nav-link" href="/about/">about</a>
+              </div>
+            </div>
+          </div>
+      </nav>
+    </sectio class= >
+    <section>
+      <dev class="judulGaleri bg-dark " style="height: 100%;" >
+          <h1>MY Galeri</h1>
+      </dev>
+    </section>
+  </dev>
+  <script>
+    var loader = document.getElementById("loadinganim");
+        window.addEventListener("load", function(){
+          loader.style.display = "none"
+        })
+  </script>
+  <script >
+    function setdarkmode(isdark) {
+      if(isdark) {
+        document.body.setAttribute('id', 'darkmodee')
+      } else {
+        document.body.setAttribute('id', '')
+      }
+    }
+  </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></scrip>
+</body>
+</html>

@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+*,body {
+    font-family: poppins, sans-serif;
+}
+
+#loadinganim {
+    background: var(--primary-color) url(/source/loadinganim.webp) no-repeat center center  ;
+    background-size: 30%;
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    z-index: 100;
+}
+
+.animasiwarnatitle {
+    animation-name: animasititle;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes animasititle {
+    25% {color: red;}
+    50% {color: greenyellow;}
+    75% {color: purple;}
+    100% {color: yellow}
+}
+
+.animasinamaawal {
+    animation-name: namajudul;
+    animation-duration: 2s;
+    animation-direction: alternate;
+}
+
+@keyframes namajudul {
+    0% {color: rgb(139, 15, 87);}
+    25% {color: red;}
+    50% {color: green;}
+    75% {color: blue;}
+    100% {color: rgb(0, 238, 247);}
+}
+
+.textngambang:hover {
+    animation-name: gambarprofil;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes gambarprofil {
+    from {box-shadow: 0px 0px 50px 0px red;}
+    to {box-shadow:0px 0px 100px 20px green;}
+}
+
+.profilepme:hover {
+    height: 250px;
+    width: 250px;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+
+.everyonestyle:hover {
+    color: red;
+    transition: all .6s;
+    -webkit-transition: all .6s;
+    -moz-transition: all .6s;
+    -ms-transition: all .6s;
+    -o-transition: all .6s;
+}
+
+.animationbarme:hover {
+    transition: .4s;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+.nav-link:hover {
+    color: purple;\
+    transition: all .6s;
+    -webkit-transition: all .6s;
+    -moz-transition: all .6s;
+    -ms-transition: all .6s;
+    -o-transition: all .6s;
+}
+.everyonestylen:hover {
+    color: green;
+    transition: all .4s;
+    -webkit-transition: all .4s;
+    -moz-transition: all .4s;
+    -ms-transition: all .4s;
+    -o-transition: all .4s;
+}
+
+.everyonestylen1:hover {
+    animation-name: everyonestylen1a;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    -webkit-animation:;
+}
+
+@keyframes everyonestylen1a {
+    0% {color: red;}
+    25% {color: blue;}
+    50% {color: purple;}
+    75% {color: yellowgreen;}
+    100% {color: red;}
+}
+
+.videoprofiles {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.zoomgambarg:hover {
+    height: 250px;
+    width: 250px;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+
+.progres-satu {
+    animation: loadingsatu 5s forwards;
+    -webkit-animation: loadingsatu 5s forwards;
+}
+.progres-dua {
+    animation: loadingdua 5s forwards;
+    -webkit-animation: loadingdua 5s forwards;
+}
+.progres-tiga {
+    animation: loadingtiga 5s forwards;
+    -webkit-animation: loadingtiga 5s forwards;
+}
+.progres-empat {
+    animation: loadingempat 10s forwards;
+    -webkit-animation: loadingempat 10s forwards;
+    animation-timing-function: ease-in;
+    border-radius: 10;
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    -ms-border-radius: 10;
+    -o-border-radius: 10;
+}
+
+@keyframes loadingsatu {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    }
+}
+@keyframes loadingdua {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+@keyframes loadingtiga {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 20%;
+    }
+}
+@keyframes loadingempat {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+
+
+.baliktop {
+    position: fixed;
+    z-index: 1;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+    bottom: 20px;
+    border-radius: 50%;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: var(--secondary-color);
+    box-shadow: 1px 1px #379237;
+    color: green;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+:root  {
+    --primary-color: #B6E388;
+    --secondary-color: #000000;
+    --three-color: #99df58;
+    --four-color: #000000;
+    --five-color: #c0e999;
+}
+
+.buatlightmode {
+    background-color: rgb(46, 45, 45);
+}
+
+#darkmodee {
+    --primary-color: #000000;
+    --secondary-color: #EDEDED;
+    --three-color: #000000;
+    --four-color: #fafafa;
+    --five-color: #fafafa;
+}
+
+.textwhitemode {
+    color: white;
+}
+
+.navbar-light {
+    color: var(--three-color);
+}
+

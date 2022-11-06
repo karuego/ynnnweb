@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightblue;
+    color: black;
+
+}
+
+.dark {
+    background-color: black;
+    color: white;
+}
+
+.container {
+    width: 100%;
+    justify-content: center;
+    height: 100vh;
+    display: flex;
+}
+
+.wraper {
+    background-color: lightcoral;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    position: fixed;
+    top: 0;
+    font-size: 20px;
+    padding: 20px;
+    box-shadow: 5px 5px 5px rgba(58, 57, 57, 0.664);
+}
+
+.brand {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5em;
+    padding: 15px;
+    text-transform: capitalize;
+}
+
+.firstname {
+    color: black;
+    font-weight: 700;
+
+}
+
+.lastname {
+    color: crimson;
+    padding-left: 5px;
+    font-weight: 400;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation>li {
+    list-style-type: none;
+    padding: 15px;
+
+}
+
+.navigation>li>a {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.active {
+    background-color: crimson;
+    color: white;
+    padding: 15px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.navigation>li>a:hover {
+    color: black;
+    transition: all .6s;
+    -webkit-transition: all .6s;
+    -moz-transition: all .6s;
+    -ms-transition: all .6s;
+    -o-transition: all .6s;
+}
+
+.navigation>li>img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.navigation>li>img:hover{
+    transform: scale(1.1);
+    transition: all 4s;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -webkit-transition: all 4s;
+    -moz-transition: all 4s;
+    -ms-transition: all 4s;
+    -o-transition: all 4s;
+}
+
+
+
+
