@@ -6,7 +6,7 @@
 }
 
 #loadinganim {
-    background: var(--primary-color) url(/source/loadinganim.webp) no-repeat center center  ;
+    background: var(--primary-color) url(source/loadinganim.webp) no-repeat center center  ;
     background-size: 30%;
     position: fixed;
     height: 100vh;
